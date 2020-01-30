@@ -30,6 +30,7 @@ android:background="#858282"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/ic_verify"
+            android:tint="@color/colorPrimary"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="10dp"/>
         <TextView
@@ -40,7 +41,7 @@ android:background="#858282"
             android:gravity="center"
             android:text="@string/hi"
             android:textAllCaps="true"
-            android:textColor="@color/white"
+            android:textColor="@color/colorPrimary"
             android:textSize="18sp"/>
 
         <TextView
@@ -53,7 +54,7 @@ android:background="#858282"
             android:hint="Enter Number"
             android:text="+46123456789"
             android:textAllCaps="true"
-            android:textColor="@color/white"
+            android:textColor="@color/colorPrimary"
             android:textSize="18sp"/>
 
         <RelativeLayout
@@ -78,7 +79,7 @@ android:background="#858282"
                     android:gravity="center"
                     android:text="@string/entercode"
                     android:textAllCaps="false"
-                    android:textColor="@color/white"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="18sp"/>
 
                 <com.msg91.sendotp.sample.OtpEditText
@@ -87,12 +88,12 @@ android:background="#858282"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:background="@drawable/inputbox_new"
-                    android:textColor="@color/white"
+                    android:textColor="@color/colorPrimary"
                     android:maxLength="4"
                     android:textSize="20sp"
                     android:textIsSelectable="false"
                     android:padding="20dp"
-                    android:textColorHint="@color/white"
+                    android:textColorHint="@color/colorPrimary"
                     android:layout_marginBottom="10dp"
                     android:inputType="numberPassword"/>
 
@@ -111,13 +112,13 @@ android:background="#858282"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight=".5"
-                        android:background="@drawable/rounded_corner"
+                        android:background="@drawable/btn"
                         android:gravity="center"
                         android:onClick="onSubmitClicked"
                         android:padding="10dp"
                         android:text="@string/proceed"
                         android:textAllCaps="false"
-                        android:textColor="#1A79CC"
+                        android:textColor="#ffffff"
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -130,7 +131,7 @@ android:background="#858282"
                     android:layout_marginTop="10dp"
                     android:gravity="center"
                     android:text="Resend via call ()"
-                    android:textColor="@color/white"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="16sp"/>
             </LinearLayout>
 

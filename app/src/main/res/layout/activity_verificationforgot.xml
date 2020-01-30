@@ -5,7 +5,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="0dip"
-android:background="#ffffff"
+android:background="#858282"
                 tools:context=".VerificationActivityforgot">
 
     <ImageView
@@ -112,7 +112,7 @@ android:background="#ffffff"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight=".5"
-                        android:background="@drawable/rounded_corner"
+                        android:background="@drawable/btn"
                         android:gravity="center"
                         android:onClick="onSubmitClicked"
                         android:padding="10dp"
@@ -171,17 +171,18 @@ android:background="#ffffff"
                 android:textStyle="bold"
                 android:visibility="invisible"
                 android:textSize="18sp"/>
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:visibility="invisible"
-                android:layout_below="@+id/textView1"
-                android:text="Your Mobile number has been \nsuccessfully verified."
-                android:textAllCaps="false"
-                android:textColor="#555555"
-                android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/textView1"
+                    android:gravity="center"
+                    android:text="Your Mobile number has been \nsuccessfully verified."
+                    android:textAllCaps="false"
+                    android:textColor="#555555"
+                    android:textSize="14sp"
+                    android:visibility="invisible" />
 
             </LinearLayout>
         </RelativeLayout>
